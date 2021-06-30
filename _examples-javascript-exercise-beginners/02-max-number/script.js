@@ -1,6 +1,6 @@
 console.log('02-max-number');
 
-function findMaxNumber(num1, num2){
+function findMaxNumber(num1, num3){
   // 1. long syntax
   /* if(num1 > num2){
     return num1
@@ -13,7 +13,7 @@ function findMaxNumber(num1, num2){
   else return num2; */
 
   // 3. ternary short syntax
-  return (num1 > num2) ? num1 : num2;
+  return (num1 > num2) ? num1 : num3;
 }
 
 let checkMax1 = findMaxNumber(10, 5);
